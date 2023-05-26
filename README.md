@@ -1,4 +1,7 @@
-# AirBnB Clone - The Console
+# AirBnB Clone
+
+## AirBnB clone - The console
+
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
 #### Functionalities of this command interpreter:
@@ -8,7 +11,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * Update attributes of an object
 * Destroy an object
 
-## Table of Content
+### Table of Content
 * [Environment](#environment)
 * [Installation](#installation)
 * [File Descriptions](#file-descriptions)
@@ -18,16 +21,16 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [Authors](#authors)
 * [License](#license)
 
-## Environment
+### Environment
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
-## Installation
+### Installation
 * Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
 * Access AirBnb directory: `cd AirBnB_clone`
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 
-## File Descriptions
+### File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
 List of commands this console current supports:
 * `EOF` - exits console 
@@ -39,7 +42,7 @@ List of commands this console current supports:
 * `all` - Prints all string representation of all instances based or not on the class name. 
 * `update` - Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). 
 
-#### `models/` directory contains classes used for this project:
+##### `models/` directory contains classes used for this project:
 [base_model.py](/models/base_model.py) - The BaseModel class from which future classes will be derived
 * `def __init__(self, *args, **kwargs)` - Initialization of the base model
 * `def __str__(self)` - String representation of the BaseModel class
@@ -54,14 +57,14 @@ Classes inherited from Base Model:
 * [state.py](/models/state.py)
 * [user.py](/models/user.py)
 
-#### `/models/engine` directory contains File Storage class that handles JASON serialization and deserialization :
+##### `/models/engine` directory contains File Storage class that handles JASON serialization and deserialization :
 [file_storage.py](/models/engine/file_storage.py) - serializes instances to a JSON file & deserializes back to instances
 * `def all(self)` - returns the dictionary __objects
 * `def new(self, obj)` - sets in __objects the obj with key <obj class name>.id
 * `def save(self)` - serializes __objects to the JSON file (path: __file_path)
 * ` def reload(self)` -  deserializes the JSON file to __objects
 
-#### `/tests` directory contains all unit test cases for this project:
+##### `/tests` directory contains all unit test cases for this project:
 [/test_models/test_base_model.py](/tests/test_models/test_base_model.py) - Contains the TestBaseModel and TestBaseModelDocs classes
 TestBaseModelDocs class:
 * `def setUpClass(cls)`- Set up for the doc tests
@@ -127,7 +130,7 @@ TestBaseModel class:
 * `def test_user_class_docstring(self)` - Test for the User class docstring
 
 
-## Examples of use
+### Examples of use
 ```
 vagrantAirBnB_clone$./console.py
 (hbnb) help
@@ -149,6 +152,121 @@ EOF  all  create  destroy  help  quit  show  update
 ** no instance found **
 (hbnb) quit
 ```
+
+## AirBnB clone - Web static
+  
+### HTML/CSS Files
+
+All files are W3C compliant and are validated with W3C-Validator
+All CSS files are in styles folder
+All images are in images folder
+Current screenshots have been done on Chrome 56 or more.
+No cross browsers
+
+## AirBnB clone - MySQL
+
+### Python Scripts
+
+All files are interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+All files use the pycodestyle (version 2.8.*)
+All your files are executable
+All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')
+All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+
+### Python Unit Tests
+
+All test files are inside a folder tests
+All test files are written based on unittest module
+All your test files are python files (extension: .py)
+All test files and folders start by test_
+File organization in the tests folder is the same as the project: ex: for models/base_model.py, unit tests must be in: tests/test_models/test_base_model.py
+All tests are executed by using this command: python3 -m unittest discover tests
+You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base_model.py
+All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')
+All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+
+### SQL Scripts
+
+All files are executed on Ubuntu 20.04 LTS using MySQL 8.0
+All files are executed with SQLAlchemy version 1.4.x
+All files start by a comment describing the task
+All SQL keywords are in uppercase (SELECT, WHERE…)
+
+## AirBnB clone - Deploy static
+
+### Python Scripts
+
+All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+All files are written based on PEP 8 style (version 1.7.*)
+
+All files are executable
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+
+### Bash Scripts
+
+All files are interpreted on Ubuntu 14.04 LTS
+All Bash script files are executable
+All Bash scripts pass Shellcheck (version 0.3.3-1~ubuntu14.04.1 via apt-get) without any errors
+
+### More Info
+
+Install Fabric for Python 3 - version 1.14.post1
+```bash
+$ pip3 uninstall Fabric
+$ sudo apt-get install libffi-dev
+$ sudo apt-get install libssl-dev
+$ sudo apt-get install build-essential
+$ sudo apt-get install python3.4-dev
+$ sudo apt-get install libpython3-dev
+$ pip3 install pyparsing
+$ pip3 install appdirs
+$ pip3 install setuptools==40.1.0
+$ pip3 install cryptography==2.8
+$ pip3 install bcrypt==3.1.7
+$ pip3 install PyNaCl==1.3.0
+$ pip3 install Fabric3==1.14.post1
+```
+
+## AirBnB clone - Web framework
+  
+### Python Scripts
+
+All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+PEP 8 style (version 1.7)
+All files are executable
+All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')
+All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+
+### HTML/CSS Files
+
+All files are W3C compliant and are validated with W3C-Validator (except for jinja template)
+All CSS files are in the styles folder
+All images are in the images folder
+Current screenshots have been done on Chrome 56.0.2924.87.
+No cross browsers
+
+## AirBnB clone - RESTful API
+
+### Python Scripts
+
+All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+All files are written based on PEP 8 style (version 1.7)
+All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')
+All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+
+### Python Unit Tests
+
+All test files are inside a folder called tests
+All tests are written based on unittest module
+All test files are python files (extension: .py)
+All test files and folders start by test_
+File organization in the tests folder is the same as the project: ex: for models/base_model.py, unit tests are in: tests/test_models/test_base_model.py
+All tests are executed by using this command: python3 -m unittest discover tests
+You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base_model.py
 
 ## Bugs
 No known bugs at this time. 
