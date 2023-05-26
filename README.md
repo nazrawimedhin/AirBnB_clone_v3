@@ -157,58 +157,57 @@ EOF  all  create  destroy  help  quit  show  update
   
 ### HTML/CSS Files
 
-All files are W3C compliant and are validated with W3C-Validator
-All CSS files are in styles folder
-All images are in images folder
-Current screenshots have been done on Chrome 56 or more.
-No cross browsers
+All files are W3C compliant and are validated with W3C-Validator<br/>
+All CSS files are in styles folder<br/>
+All images are in images folder<br/>
+Current screenshots have been done on Chrome 56 or more.<br/>
+No cross browsers<br/>
 
 ## AirBnB clone - MySQL
 
 ### Python Scripts
 
-All files are interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
-All files use the pycodestyle (version 2.8.*)
-All your files are executable
-All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')
-All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+All files are interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)<br/>
+All files use the pycodestyle (version 2.8.*)<br/>
+All your files are executable<br/>
+All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')<br/>
+All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')<br/>
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')<br/>
 
 ### Python Unit Tests
 
-All test files are inside a folder tests
-All test files are written based on unittest module
-All your test files are python files (extension: .py)
-All test files and folders start by test_
-File organization in the tests folder is the same as the project: ex: for models/base_model.py, unit tests must be in: tests/test_models/test_base_model.py
-All tests are executed by using this command: python3 -m unittest discover tests
-You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base_model.py
-All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')
-All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+All test files are inside a folder tests<br/>
+All test files are written based on unittest module<br/>
+All your test files are python files (extension: .py)<br/>
+All test files and folders start by test_<br/>
+File organization in the tests folder is the same as the project: ex: for models/base_model.py, unit tests must be in: tests/test_models/test_base_model.py<br/>
+All tests are executed by using this command: python3 -m unittest discover tests<br/>
+You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base_model.py<br/>
+All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')<br/>
+All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')<br/>
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')<br/>
 
 ### SQL Scripts
 
-All files are executed on Ubuntu 20.04 LTS using MySQL 8.0
-All files are executed with SQLAlchemy version 1.4.x
-All files start by a comment describing the task
-All SQL keywords are in uppercase (SELECT, WHERE…)
+All files are executed on Ubuntu 20.04 LTS using MySQL 8.0<br/>
+All files are executed with SQLAlchemy version 1.4.x<br/>
+All files start by a comment describing the task<br/>
+All SQL keywords are in uppercase (SELECT, WHERE…)<br/>
 
 ## AirBnB clone - Deploy static
 
 ### Python Scripts
 
-All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
-All files are written based on PEP 8 style (version 1.7.*)
-
-All files are executable
-All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)<br/>
+All files are written based on PEP 8 style (version 1.7.*)<br/>
+All files are executable<br/>
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')<br/>
 
 ### Bash Scripts
 
-All files are interpreted on Ubuntu 14.04 LTS
-All Bash script files are executable
-All Bash scripts pass Shellcheck (version 0.3.3-1~ubuntu14.04.1 via apt-get) without any errors
+All files are interpreted on Ubuntu 14.04 LTS<br/>
+All Bash script files are executable<br/>
+All Bash scripts pass Shellcheck (version 0.3.3-1~ubuntu14.04.1 via apt-get) without any errors<br/>
 
 ### More Info
 
@@ -233,48 +232,52 @@ $ pip3 install Fabric3==1.14.post1
   
 ### Python Scripts
 
-All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
-PEP 8 style (version 1.7)
-All files are executable
-All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')
-All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)<br/>
+All files are written based on PEP 8 style (version 1.7)<br/>
+All files are executable<br/>
+All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')<br/>
+All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')<br/>
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')<br/>
 
 ### HTML/CSS Files
 
-All files are W3C compliant and are validated with W3C-Validator (except for jinja template)
-All CSS files are in the styles folder
-All images are in the images folder
-Current screenshots have been done on Chrome 56.0.2924.87.
-No cross browsers
+All files are W3C compliant and are validated with W3C-Validator (except for jinja template)<br/>
+All CSS files are in the styles folder<br/>
+All images are in the images folder<br/>
+Current screenshots have been done on Chrome 56.0.2924.87.<br/>
+No cross browsers<br/>
 
 ## AirBnB clone - RESTful API
 
 ### Python Scripts
 
-All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
-All files are written based on PEP 8 style (version 1.7)
-All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')
-All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)<br/>
+All files are written based on PEP 8 style (version 1.7)<br/>
+All modules have documentation (python3 -c 'print(__import__("my_module").__doc__)')<br/>
+All classes have documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')<br/>
+All functions (inside and outside a class) have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')<br/>
 
 ### Python Unit Tests
 
-All test files are inside a folder called tests
-All tests are written based on unittest module
-All test files are python files (extension: .py)
-All test files and folders start by test_
-File organization in the tests folder is the same as the project: ex: for models/base_model.py, unit tests are in: tests/test_models/test_base_model.py
-All tests are executed by using this command: python3 -m unittest discover tests
-You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base_model.py
+All test files are inside a folder called tests<br/>
+All tests are written based on unittest module<br/>
+All test files are python files (extension: .py)<br/>
+All test files and folders start by test_<br/>
+File organization in the tests folder is the same as the project: ex: for models/base_model.py, unit tests are in: tests/test_models/test_base_model.py<br/>
+All tests are executed by using this command: python3 -m unittest discover tests<br/>
+You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base_model.py<br/>
 
 ## Bugs
+
 No known bugs at this time. 
 
 ## Authors
-Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
-Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 
-Second part of Airbnb: Joann Vuong
+Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  <br/>
+Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)<br/>
+
+Second part of Airbnb: Joann Vuong<br/>
+ 
 ## License
+
 Public Domain. No copy write protection. 
